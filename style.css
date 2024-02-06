@@ -57,6 +57,16 @@ a:hover {
     letter-spacing: 2px;
 }
 
+.container{
+    transition: 500ms all ease-in;
+}
+
+.container:hover {
+    margin-top: 0.5rem;
+    background: rgb(220, 255, 252);
+    box-shadow: 0.5rem 0.5rem 0.5rem 0.7rem rgb(84, 81, 81);
+}
+
 .nav__holder {
     display: flex;
     justify-content: center;
@@ -77,6 +87,40 @@ a:hover {
 
 .links a {
     margin-left: 0.5rem;
+}
+
+.services__section {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    width: 100%;
+}
+
+.services__container-holder {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+    gap: 2rem;
+    width: 80%;
+    padding: 1rem;
+}
+
+.services__card {
+    border-radius: 1rem;
+    border: 2px solid #e7e6e6;
+    background: rgb(248, 248, 248);
+    padding: 0.9rem;
+    line-height: 2;
+}
+
+.services__card-btn {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.services__card-header {
+    text-align: center;
 }
 
 .header__holder {
